@@ -9,13 +9,18 @@
       <div class="outer-card">
         <div class="inner-card">
           <svg width="72" height="72" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path
-              d="M27.1611 4.23322C24.3168 -0.0234282 18.6541 -1.2706 14.5833 1.41353L7.4071 6.18531C5.44997 7.45959 4.09302 9.54725 3.70159 11.906C3.36235 13.8852 3.6494 15.9187 4.56273 17.681C3.93645 18.657 3.51892 19.7415 3.33626 20.8802C2.91873 23.2932 3.46673 25.7876 4.82368 27.7668C7.69415 32.0234 13.3307 33.2706 17.4016 30.5865L24.5777 25.8418C26.5349 24.5675 27.8918 22.4799 28.2832 20.1211C28.6225 18.1419 28.3354 16.1084 27.4221 14.3461C28.0484 13.3701 28.4659 12.2856 28.6486 11.1469C29.0922 8.70676 28.5442 6.21242 27.1611 4.23322Z"
-              fill="#FF3E00" />
-            <path
-              d="M13.797 28.6159C11.3759 29.2212 8.84601 28.3001 7.43146 26.3264C6.56096 25.1684 6.23453 23.721 6.47935 22.3C6.53376 22.0631 6.58817 21.8526 6.64257 21.6157L6.77859 21.1947L7.15943 21.4578C8.05713 22.0894 9.03643 22.5631 10.0973 22.8789L10.3694 22.9579L10.3422 23.221C10.315 23.5895 10.4238 23.9842 10.6414 24.3C11.0767 24.9053 11.8383 25.1948 12.5728 25.0105C12.736 24.9579 12.8993 24.9053 13.0353 24.8263L20.4889 20.2209C20.8697 19.9841 21.1145 19.642 21.1962 19.2209C21.2778 18.7999 21.169 18.3525 20.9241 18.0104C20.4889 17.4051 19.7272 17.1419 18.9927 17.3261C18.8295 17.3788 18.6663 17.4314 18.5303 17.5104L15.674 19.2736C15.2115 19.563 14.6946 19.7736 14.1506 19.9052C11.7295 20.5104 9.19965 19.5894 7.7851 17.6156C6.9418 16.4577 6.58817 15.0103 6.8602 13.5892C7.10502 12.2207 7.97552 10.9839 9.19965 10.247L16.6805 5.64161C17.1429 5.35213 17.6598 5.1416 18.2038 4.9837C20.6249 4.37842 23.1548 5.2995 24.5693 7.27323C25.4398 8.43116 25.7663 9.87856 25.5214 11.2997C25.467 11.5365 25.4126 11.747 25.331 11.9839L25.195 12.4049L24.8142 12.1418C23.9165 11.5102 22.9371 11.0365 21.8762 10.7207L21.6042 10.6417L21.6314 10.3786C21.6586 10.0101 21.5498 9.6154 21.3322 9.2996C20.8969 8.69432 20.1352 8.43116 19.4008 8.61537C19.2375 8.66801 19.0743 8.72064 18.9383 8.79959L11.4847 13.405C11.1039 13.6418 10.859 13.9839 10.7774 14.405C10.6958 14.8261 10.8046 15.2734 11.0495 15.6156C11.4847 16.2208 12.2464 16.484 12.9809 16.2998C13.1441 16.2472 13.3073 16.1945 13.4433 16.1156L16.2996 14.3524C16.7621 14.0629 17.2789 13.8524 17.823 13.6945C20.2441 13.0892 22.7739 14.0103 24.1885 15.984C25.059 17.1419 25.3854 18.5893 25.1406 20.0104C24.8958 21.3789 24.0253 22.6157 22.8011 23.3526L15.3203 27.958C14.8579 28.2475 14.341 28.458 13.797 28.6159Z"
-              fill="white" />
+            <g clip-path="url(#clip0_5861_17926)">
+              <path
+                d="M17.9523 27.1998H29.848C30.2259 27.1998 30.597 27.0964 30.9243 26.8998C31.2515 26.7031 31.5232 26.4203 31.712 26.0798C31.9008 25.7392 32.0002 25.3529 32 24.9597C31.9998 24.5665 31.9002 24.1803 31.711 23.8399L23.7222 9.43993C23.5334 9.09945 23.2618 8.81668 22.9346 8.62009C22.6075 8.42353 22.2364 8.32 21.8586 8.32C21.4809 8.32 21.1097 8.42353 20.7826 8.62009C20.4555 8.81668 20.1838 9.09945 19.995 9.43993L17.9523 13.1244L13.9584 5.91954C13.7695 5.5791 13.4977 5.29638 13.1705 5.09982C12.8432 4.90329 12.4721 4.7998 12.0943 4.7998C11.7164 4.7998 11.3453 4.90329 11.0181 5.09982C10.6908 5.29638 10.4191 5.5791 10.2301 5.91954L0.288942 23.8399C0.0998197 24.1803 0.000164599 24.5665 2.03726e-07 24.9597C-0.000164192 25.3529 0.0991677 25.7392 0.288005 26.0798C0.476843 26.4203 0.748526 26.7031 1.07573 26.8998C1.40294 27.0964 1.77413 27.1998 2.15196 27.1998H9.61913C12.5777 27.1998 14.7595 25.8474 16.2608 23.2089L19.9057 16.6399L21.858 13.1244L27.7172 23.6843H19.9057L17.9523 27.1998ZM9.49739 23.6807L4.28626 23.6794L12.0977 9.60035L15.9954 16.6399L13.3857 21.345C12.3887 23.0569 11.2561 23.6807 9.49739 23.6807Z"
+                fill="#00DC82" />
+            </g>
+            <defs>
+              <clipPath id="clip0_5861_17926">
+                <rect width="32" height="32" fill="white" />
+              </clipPath>
+            </defs>
           </svg>
+
         </div>
       </div>
       <div class="connection-line u-flex u-cross-center" :style="{
@@ -47,24 +52,18 @@
         <div class="loader is-small"></div>
         <h1 class="heading-level-7">Waiting for connection...</h1>
       </div>
-      <template v-else-if="status === 'success'">
-        <h1 class="heading-level-5">Congratulations!</h1>
-      </template>
-      <template v-else>
-        <h1 class="heading-level-5">Check connection</h1>
-      </template>
+      <h1 v-else-if="status === 'success'" class="heading-level-5">Congratulations!</h1>
 
+      <h1 v-else class="heading-level-5">Check connection</h1>
       <p class="body-text-2">
-        <template v-if="status === 'success'">
-          <span>You connected your app successfully.</span>
-        </template>
-        <template v-else-if="status === 'error' || status === 'idle'">
-          <span>Send a ping to verify the connection</span>
-        </template>
+        <span v-if="status === 'success'">
+          You connected your app successfully.
+        </span>
+        <span v-else-if="status === 'error' || status === 'idle'">
+          Send a ping to verify the connection
+        </span>
       </p>
-
-      <button @mousedown="sendPing" class="button u-margin-block-start-32"
-        :style="{ visibility: status === 'loading' ? 'hidden' : 'visible' }">
+      <button @click="sendPing" class="button u-margin-block-start-32" v-show="status === 'error' || status === 'idle'">
         <span>Send a ping</span>
       </button>
     </section>
@@ -73,7 +72,7 @@
         <li class="card u-max-width-300 u-flex-vertical u-gap-8" style="--p-card-padding: 1em">
           <h2 class="heading-level-7">Edit your app</h2>
           <p class="body-text-2">
-            Edit <code class="inline-code">app/page.tsx</code> to get stated with building
+            Edit <code class="inline-code">app.vue</code> to get started with building
             your app
           </p>
         </li>
@@ -202,8 +201,8 @@
                           month: 'short',
                           day: 'numeric',
                           hour: '2-digit',
-                      minute: '2-digit',
-                      })
+                          minute: '2-digit',
+                        })
                       }}
                     </time>
                   </td>
@@ -237,7 +236,7 @@
 <script setup>
 import { client } from '~/lib/appwrite';
 import { AppwriteException } from 'appwrite';
-import { ref, watch, onMounted, onBeforeUnmount, nextTick } from 'vue';
+import { ref, onMounted, onBeforeUnmount } from 'vue';
 import { useRuntimeConfig } from '#app';
 
 const config = useRuntimeConfig();
@@ -256,6 +255,7 @@ const showLogs = ref(false);
 const detailsRef = ref(null);
 
 async function sendPing() {
+  console.log("Ping!")
   if (status.value === 'loading') return;
   status.value = 'loading';
   try {
