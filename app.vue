@@ -184,49 +184,47 @@
               </thead>
 
               <tbody class="table-tbody u-flex u-flex-vertical u-font-code u-overflow-y-auto" style="max-height: 16em;">
-                <template v-if="logs.length === 0">
-                  <tr class="table-row u-height-auto" style="min-block-size: unset;">
-                    <p class="u-color-text-offline u-padding-16">
+                <tr v-if="logs.length === 0" class="table-row u-height-auto" style="min-block-size: unset;">
+                  <td class="table-col u-flex u-cross-center u-padding-16" colspan="5">
+                    <p class="u-color-text-offline">
                       There are no logs to show
                     </p>
-                  </tr>
-                </template>
-                <template v-for="(log, index) in logs" :key="index">
-                  <tr class="table-row u-grid u-height-auto" style="
-                      grid-template-columns: 3fr 2fr 2fr 2fr 5fr;
-                      min-block-size: unset;
-                    ">
-                    <td class="table-col u-flex u-cross-center" data-title="Date">
-                      <time class="text">
-                        {{
-                          log.date.toLocaleString('en-US', {
-                            month: 'short',
-                            day: 'numeric',
-                            hour: '2-digit',
-                            minute: '2-digit',
-                          })
-                        }}
-                      </time>
-                    </td>
-                    <td class="table-col u-flex u-cross-center" data-title="Status">
-                      <span class="tag" :class="{
-                        'is-warning': log.status >= 400,
-                        'is-success': log.status < 400,
-                      }">
-                        {{ log.status }}
-                      </span>
-                    </td>
-                    <td class="table-col u-flex u-cross-center" data-title="Method">
-                      <span class="text">{{ log.method }}</span>
-                    </td>
-                    <td class="table-col u-flex u-cross-center" data-title="Path">
-                      <span class="text">{{ log.path }}</span>
-                    </td>
-                    <td class="table-col u-flex u-cross-center" data-title="Response">
-                      <code class="inline-code u-un-break-text u-overflow-x-auto">{{ log.response }}</code>
-                    </td>
-                  </tr>
-                </template>
+                  </td>
+                </tr>
+                <tr v-else v-for="(log, index) in logs" :key="index" class="table-row u-grid u-height-auto" style="
+        grid-template-columns: 3fr 2fr 2fr 2fr 5fr;
+        min-block-size: unset;
+      ">
+                  <td class="table-col u-flex u-cross-center" data-title="Date">
+                    <time class="text">
+                      {{
+                        log.date.toLocaleString('en-US', {
+                          month: 'short',
+                          day: 'numeric',
+                          hour: '2-digit',
+                      minute: '2-digit',
+                      })
+                      }}
+                    </time>
+                  </td>
+                  <td class="table-col u-flex u-cross-center" data-title="Status">
+                    <span class="tag" :class="{
+                      'is-warning': log.status >= 400,
+                      'is-success': log.status < 400,
+                    }">
+                      {{ log.status }}
+                    </span>
+                  </td>
+                  <td class="table-col u-flex u-cross-center" data-title="Method">
+                    <span class="text">{{ log.method }}</span>
+                  </td>
+                  <td class="table-col u-flex u-cross-center" data-title="Path">
+                    <span class="text">{{ log.path }}</span>
+                  </td>
+                  <td class="table-col u-flex u-cross-center" data-title="Response">
+                    <code class="inline-code u-un-break-text u-overflow-x-auto">{{ log.response }}</code>
+                  </td>
+                </tr>
               </tbody>
             </table>
           </div>
