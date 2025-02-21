@@ -145,10 +145,6 @@
                   <p class="u-color-text-offline">Project name</p>
                   <p class="body-text-2">{{ appwriteProjectName }}</p>
                 </div>
-                <div class="u-grid u-grid-vertical u-gap-8">
-                  <p class="u-color-text-offline">Version</p>
-                  <p class="body-text-2">{{ appwriteVersion }}</p>
-                </div>
               </div>
             </div>
             <table class="table is-table-row-small-size" style="--p-border-radius: 0; flex: 2;">
@@ -245,7 +241,6 @@ const {
   appwriteEndpoint,
   appwriteProjectId,
   appwriteProjectName,
-  appwriteVersion,
 } = config.public;
 
 const detailHeight = ref(0);
