@@ -230,7 +230,7 @@
 </template>
 
 <script setup>
-import { client } from '~/lib/appwrite';
+import { getAppwrite } from '~/lib/appwrite';
 import { AppwriteException } from 'appwrite';
 import { ref, onMounted, onBeforeUnmount } from 'vue';
 import { useRuntimeConfig } from '#app';
@@ -248,6 +248,8 @@ const logs = ref([]);
 const status = ref('idle');
 const showLogs = ref(false);
 const detailsRef = ref(null);
+
+const client = getAppwrite(config).client;
 
 async function sendPing() {
   console.log("Ping!")
