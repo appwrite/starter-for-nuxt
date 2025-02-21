@@ -12,7 +12,7 @@
   "dependencies": {
     "@appwrite.io/pink": "^1.0.0",
     "@appwrite.io/pink-icons": "^1.0.0",
-    "appwrite": "^16.0.2",
+    "appwrite": "^17.0.0",
     "nuxt": "^3.13.0",
     "vue": "latest",
     "vue-router": "latest"
