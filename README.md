@@ -1,74 +1,26 @@
-# starter-for-nuxt
-Appwrite's starter kit for Nuxt 👩‍💻
+# Nuxt starter kit with Appwrite
 
-## Setup
+Kickstart your Nuxt development with this ready-to-use starter project integrated with [Appwrite](https://www.appwrite.io)
 
-Make sure to install the dependencies:
+## 🚀Getting started
 
-```bash
-# npm
-npm install
+###
+Clone the Project
+Clone this repository to your local machine using Git:
 
-# pnpm
-pnpm install
+`git clone https://github.com/appwrite/starter-for-nuxt`
 
-# yarn
-yarn install
+## 🛠️ Development guide
+1. **Configure Appwrite**<br/>
+   Navigate to `.env` and update the values to match your Appwrite project credentials.
+2. **Customize as needed**<br/>
+   Modify the starter kit to suit your app's requirements. Adjust UI, features, or backend
+   integrations as per your needs.
+3. **Install dependencies**<br/>
+   Run `npm install` to install all dependencies.
+4. **Run the app**<br/>
+   Start the project by running `npm run dev`.
 
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## 💡 Additional notes
+- This starter project is designed to streamline your Nuxt development with Appwrite.
+- Refer to the [Appwrite documentation](https://appwrite.io/docs) for detailed integration guidance.
