@@ -10,10 +10,11 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@appwrite.io/pink": "^1.0.0",
     "@appwrite.io/pink-icons": "^1.0.0",
+    "@tailwindcss/vite": "^4.0.15",
     "appwrite": "^17.0.0",
     "nuxt": "^3.13.0",
+    "tailwindcss": "^4.0.15",
     "vue": "latest",
     "vue-router": "latest"
   }
