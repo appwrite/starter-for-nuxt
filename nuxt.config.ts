@@ -8,7 +8,7 @@ export default defineNuxtConfig({
       appwriteProjectName: process.env.NUXT_PUBLIC_APPWRITE_PROJECT_NAME,
     },
   },
-  compatibilityDate: '2024-04-03',
+  compatibilityDate: '2026-11-01',
   devtools: { enabled: true },
   css: [
     '@/assets/app.css',

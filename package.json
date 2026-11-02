@@ -13,7 +13,7 @@
     "@appwrite.io/pink-icons": "^1.0.0",
     "@tailwindcss/vite": "^4.0.15",
     "appwrite": "^21.0.0",
-    "nuxt": "^3.13.0",
+    "nuxt": "^4.6.2",
     "tailwindcss": "^4.0.15",
     "vue": "latest",
     "vue-router": "latest"
